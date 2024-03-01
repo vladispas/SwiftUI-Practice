@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  RootView.swift
 //  Fitness
 //
 //  Created by Vlad Ispas on 01.03.2024.
@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct RootView: View {
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -17,8 +18,9 @@ struct ContentView: View {
         }
         .padding()
     }
+    
 }
 
 #Preview {
-    ContentView()
+    RootView()
 }
