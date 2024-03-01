@@ -11,6 +11,7 @@
 		800386F42B91F301007527AA /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800386F32B91F301007527AA /* RootView.swift */; };
 		800386F62B91F303007527AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800386F52B91F303007527AA /* Assets.xcassets */; };
 		800386F92B91F303007527AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800386F82B91F303007527AA /* Preview Assets.xcassets */; };
+		800387012B91F42B007527AA /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800387002B91F42B007527AA /* AuthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		800386F32B91F301007527AA /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		800386F52B91F303007527AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		800386F82B91F303007527AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		800387002B91F42B007527AA /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				800386F32B91F301007527AA /* RootView.swift */,
+				800387002B91F42B007527AA /* AuthView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				800386F42B91F301007527AA /* RootView.swift in Sources */,
 				800386F22B91F301007527AA /* FitnessApp.swift in Sources */,
+				800387012B91F42B007527AA /* AuthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
