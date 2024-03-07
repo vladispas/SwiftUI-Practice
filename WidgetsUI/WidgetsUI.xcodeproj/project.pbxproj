@@ -13,7 +13,38 @@
 		8092E5172B9A08DB0099E4B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8092E5162B9A08DB0099E4B8 /* Preview Assets.xcassets */; };
 		8092E5202B9A094D0099E4B8 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092E51F2B9A094D0099E4B8 /* Widget.swift */; };
 		8092E5222B9A097E0099E4B8 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092E5212B9A097E0099E4B8 /* WidgetView.swift */; };
+		8092E52A2B9A09D90099E4B8 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8092E5292B9A09D90099E4B8 /* WidgetKit.framework */; };
+		8092E52C2B9A09D90099E4B8 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8092E52B2B9A09D90099E4B8 /* SwiftUI.framework */; };
+		8092E52F2B9A09D90099E4B8 /* WidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092E52E2B9A09D90099E4B8 /* WidgetsBundle.swift */; };
+		8092E5332B9A09DB0099E4B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8092E5322B9A09DB0099E4B8 /* Assets.xcassets */; };
+		8092E5372B9A09DB0099E4B8 /* WidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8092E5272B9A09D90099E4B8 /* WidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8092E53E2B9A0A190099E4B8 /* WaterBalanceWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092E53D2B9A0A190099E4B8 /* WaterBalanceWidget.swift */; };
+		8092E5412B9A0D3E0099E4B8 /* WaterBalanceGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092E5402B9A0D3E0099E4B8 /* WaterBalanceGaugeView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8092E5352B9A09DB0099E4B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8092E5042B9A08DA0099E4B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8092E5262B9A09D90099E4B8;
+			remoteInfo = WidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8092E53B2B9A09DB0099E4B8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8092E5372B9A09DB0099E4B8 /* WidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8092E50C2B9A08DA0099E4B8 /* WidgetsUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetsUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,6 +54,14 @@
 		8092E5162B9A08DB0099E4B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8092E51F2B9A094D0099E4B8 /* Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget.swift; sourceTree = "<group>"; };
 		8092E5212B9A097E0099E4B8 /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
+		8092E5272B9A09D90099E4B8 /* WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8092E5292B9A09D90099E4B8 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8092E52B2B9A09D90099E4B8 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		8092E52E2B9A09D90099E4B8 /* WidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsBundle.swift; sourceTree = "<group>"; };
+		8092E5322B9A09DB0099E4B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8092E5342B9A09DB0099E4B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8092E53D2B9A0A190099E4B8 /* WaterBalanceWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBalanceWidget.swift; sourceTree = "<group>"; };
+		8092E5402B9A0D3E0099E4B8 /* WaterBalanceGaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBalanceGaugeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +72,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8092E5242B9A09D90099E4B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8092E52C2B9A09D90099E4B8 /* SwiftUI.framework in Frameworks */,
+				8092E52A2B9A09D90099E4B8 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -40,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				8092E50E2B9A08DA0099E4B8 /* WidgetsUI */,
+				8092E52D2B9A09D90099E4B8 /* Widgets */,
+				8092E5282B9A09D90099E4B8 /* Frameworks */,
 				8092E50D2B9A08DA0099E4B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				8092E50C2B9A08DA0099E4B8 /* WidgetsUI.app */,
+				8092E5272B9A09D90099E4B8 /* WidgetsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,9 +106,9 @@
 		8092E50E2B9A08DA0099E4B8 /* WidgetsUI */ = {
 			isa = PBXGroup;
 			children = (
+				8092E50F2B9A08DA0099E4B8 /* WidgetsUIApp.swift */,
 				8092E51E2B9A09410099E4B8 /* Models */,
 				8092E51D2B9A093B0099E4B8 /* Views */,
-				8092E50F2B9A08DA0099E4B8 /* WidgetsUIApp.swift */,
 				8092E5132B9A08DB0099E4B8 /* Assets.xcassets */,
 				8092E5152B9A08DB0099E4B8 /* Preview Content */,
 			);
@@ -89,6 +140,43 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		8092E5282B9A09D90099E4B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8092E5292B9A09D90099E4B8 /* WidgetKit.framework */,
+				8092E52B2B9A09D90099E4B8 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8092E52D2B9A09D90099E4B8 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				8092E52E2B9A09D90099E4B8 /* WidgetsBundle.swift */,
+				8092E53C2B9A09F10099E4B8 /* Widgets */,
+				8092E53F2B9A0D300099E4B8 /* Views */,
+				8092E5322B9A09DB0099E4B8 /* Assets.xcassets */,
+				8092E5342B9A09DB0099E4B8 /* Info.plist */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		8092E53C2B9A09F10099E4B8 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				8092E53D2B9A0A190099E4B8 /* WaterBalanceWidget.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		8092E53F2B9A0D300099E4B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8092E5402B9A0D3E0099E4B8 /* WaterBalanceGaugeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,15 +187,34 @@
 				8092E5082B9A08DA0099E4B8 /* Sources */,
 				8092E5092B9A08DA0099E4B8 /* Frameworks */,
 				8092E50A2B9A08DA0099E4B8 /* Resources */,
+				8092E53B2B9A09DB0099E4B8 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8092E5362B9A09DB0099E4B8 /* PBXTargetDependency */,
 			);
 			name = WidgetsUI;
 			productName = WidgetsUI;
 			productReference = 8092E50C2B9A08DA0099E4B8 /* WidgetsUI.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8092E5262B9A09D90099E4B8 /* WidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8092E5382B9A09DB0099E4B8 /* Build configuration list for PBXNativeTarget "WidgetsExtension" */;
+			buildPhases = (
+				8092E5232B9A09D90099E4B8 /* Sources */,
+				8092E5242B9A09D90099E4B8 /* Frameworks */,
+				8092E5252B9A09D90099E4B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetsExtension;
+			productName = WidgetsExtension;
+			productReference = 8092E5272B9A09D90099E4B8 /* WidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -120,6 +227,9 @@
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					8092E50B2B9A08DA0099E4B8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8092E5262B9A09D90099E4B8 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -138,6 +248,7 @@
 			projectRoot = "";
 			targets = (
 				8092E50B2B9A08DA0099E4B8 /* WidgetsUI */,
+				8092E5262B9A09D90099E4B8 /* WidgetsExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -149,6 +260,14 @@
 			files = (
 				8092E5172B9A08DB0099E4B8 /* Preview Assets.xcassets in Resources */,
 				8092E5142B9A08DB0099E4B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8092E5252B9A09D90099E4B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8092E5332B9A09DB0099E4B8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +285,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8092E5232B9A09D90099E4B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8092E52F2B9A09D90099E4B8 /* WidgetsBundle.swift in Sources */,
+				8092E53E2B9A0A190099E4B8 /* WaterBalanceWidget.swift in Sources */,
+				8092E5412B9A0D3E0099E4B8 /* WaterBalanceGaugeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8092E5362B9A09DB0099E4B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8092E5262B9A09D90099E4B8 /* WidgetsExtension */;
+			targetProxy = 8092E5352B9A09DB0099E4B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8092E5182B9A08DB0099E4B8 /* Debug */ = {
@@ -291,6 +428,7 @@
 		8092E51B2B9A08DB0099E4B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -325,6 +463,7 @@
 		8092E51C2B9A08DB0099E4B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -356,6 +495,60 @@
 			};
 			name = Release;
 		};
+		8092E5392B9A09DB0099E4B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RX9HHYH72R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Widgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladispas.WidgetsUI.Widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8092E53A2B9A09DB0099E4B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RX9HHYH72R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Widgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladispas.WidgetsUI.Widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -373,6 +566,15 @@
 			buildConfigurations = (
 				8092E51B2B9A08DB0099E4B8 /* Debug */,
 				8092E51C2B9A08DB0099E4B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8092E5382B9A09DB0099E4B8 /* Build configuration list for PBXNativeTarget "WidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8092E5392B9A09DB0099E4B8 /* Debug */,
+				8092E53A2B9A09DB0099E4B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
