@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct WidgetsUIApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
+    
 }
