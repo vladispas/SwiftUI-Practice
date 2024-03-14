@@ -9,14 +9,14 @@ import SwiftUI
 
 struct RootView: View {
     
+    @State private var showDashboard: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if showDashboard {
+            MainView(showDashboard: $showDashboard)
+        } else {
+            AuthView(showDashboard: $showDashboard)
         }
-        .padding()
     }
     
 }

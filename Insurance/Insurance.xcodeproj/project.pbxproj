@@ -11,6 +11,10 @@
 		80B272DB2BA391A50065ECC1 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B272DA2BA391A50065ECC1 /* RootView.swift */; };
 		80B272DD2BA391A70065ECC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B272DC2BA391A70065ECC1 /* Assets.xcassets */; };
 		80B272E02BA391A70065ECC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B272DF2BA391A70065ECC1 /* Preview Assets.xcassets */; };
+		80B272E82BA396190065ECC1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B272E72BA396190065ECC1 /* Launch Screen.storyboard */; };
+		80B272EA2BA397070065ECC1 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B272E92BA397070065ECC1 /* AuthView.swift */; };
+		80B272EC2BA39B010065ECC1 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B272EB2BA39B010065ECC1 /* DashboardView.swift */; };
+		80B272EE2BA39B2B0065ECC1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B272ED2BA39B2B0065ECC1 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		80B272DA2BA391A50065ECC1 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		80B272DC2BA391A70065ECC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B272DF2BA391A70065ECC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80B272E72BA396190065ECC1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		80B272E92BA397070065ECC1 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		80B272EB2BA39B010065ECC1 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		80B272ED2BA39B2B0065ECC1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				80B272DA2BA391A50065ECC1 /* RootView.swift */,
+				80B272E92BA397070065ECC1 /* AuthView.swift */,
+				80B272F02BA39B9B0065ECC1 /* Main */,
+				80B272E72BA396190065ECC1 /* Launch Screen.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		80B272F02BA39B9B0065ECC1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				80B272ED2BA39B2B0065ECC1 /* MainView.swift */,
+				80B272EB2BA39B010065ECC1 /* DashboardView.swift */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B272E82BA396190065ECC1 /* Launch Screen.storyboard in Resources */,
 				80B272E02BA391A70065ECC1 /* Preview Assets.xcassets in Resources */,
 				80B272DD2BA391A70065ECC1 /* Assets.xcassets in Resources */,
 			);
@@ -146,7 +167,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				80B272DB2BA391A50065ECC1 /* RootView.swift in Sources */,
+				80B272EC2BA39B010065ECC1 /* DashboardView.swift in Sources */,
 				80B272D92BA391A50065ECC1 /* InsuranceApp.swift in Sources */,
+				80B272EE2BA39B2B0065ECC1 /* MainView.swift in Sources */,
+				80B272EA2BA397070065ECC1 /* AuthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +307,11 @@
 				DEVELOPMENT_TEAM = RX9HHYH72R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Insurance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -317,9 +343,11 @@
 				DEVELOPMENT_TEAM = RX9HHYH72R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Insurance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
