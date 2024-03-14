@@ -51,10 +51,15 @@ struct WaterBalanceView: View {
                 
                 Spacer()
                 
-                Text("\(String(format: "%.1f", entry.currentWaterValue)) L of \(String(format: "%.1f", entry.maxWaterValue)) L")
-                    .font(.caption2)
-                    .fontWeight(.semibold)
-                    .foregroundStyle(.white)
+                HStack(alignment: .firstTextBaseline, spacing: 3) {
+                    Text("\(String(format: "%.1f", entry.currentWaterValue)) L")
+                        .foregroundStyle(.white)
+                        .font(.system(size: 12, weight: .semibold))
+                    
+                    Text("of \(String(format: "%.1f", entry.maxWaterValue)) L")
+                        .foregroundStyle(.white.opacity(0.5))
+                        .font(.system(size: 8, weight: .semibold))
+                }
             }
         }
     }

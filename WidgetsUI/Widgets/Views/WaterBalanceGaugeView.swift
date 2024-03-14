@@ -17,7 +17,7 @@ struct WaterBalanceGaugeView: View {
             GeometryReader { geometry in
                 let size = min(geometry.size.width, geometry.size.height)
                 let center = CGPoint(x: size / 2, y: size / 2)
-                let radius = size / 3.6
+                let radius = size / 3.7
                 let startAngle = Angle(degrees: -90)
                 let progress = CGFloat(currentValue / maxValue)
                 let currentAngle = Angle(degrees: Double(progress) * 270)
@@ -38,7 +38,7 @@ struct WaterBalanceGaugeView: View {
             }
             
             Text("\(String(format: "%.0f", currentValue * 100 / maxValue))%")
-                .font(.system(size: 16, weight: .semibold))
+                .font(.system(size: 14, weight: .semibold))
                 .foregroundStyle(.white)
         }
     }

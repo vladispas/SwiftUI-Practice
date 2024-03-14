@@ -20,6 +20,7 @@
 		8092E5372B9A09DB0099E4B8 /* WidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8092E5272B9A09D90099E4B8 /* WidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8092E53E2B9A0A190099E4B8 /* WaterBalanceWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092E53D2B9A0A190099E4B8 /* WaterBalanceWidget.swift */; };
 		8092E5412B9A0D3E0099E4B8 /* WaterBalanceGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092E5402B9A0D3E0099E4B8 /* WaterBalanceGaugeView.swift */; };
+		80DD4A622BA3487900473CE9 /* WaterBalanceGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092E5402B9A0D3E0099E4B8 /* WaterBalanceGaugeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -282,6 +283,7 @@
 				8092E5102B9A08DA0099E4B8 /* WidgetsUIApp.swift in Sources */,
 				8092E5222B9A097E0099E4B8 /* WidgetView.swift in Sources */,
 				8092E5202B9A094D0099E4B8 /* Widget.swift in Sources */,
+				80DD4A622BA3487900473CE9 /* WaterBalanceGaugeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
